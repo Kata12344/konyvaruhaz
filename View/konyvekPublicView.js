@@ -2,7 +2,7 @@ import KonyvPublicView from "./konyvPublicView.js";
 
 class KonyvekPublicView{
     constructor(tomb,szuloElem){
-        szuloElem.append(`
+        szuloElem.html(`
         <h1>Könyvek</h1>
         <div class="konyvek">
         </div>`);
