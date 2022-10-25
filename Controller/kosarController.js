@@ -1,5 +1,5 @@
 import KosarModell from "../Model/kosarModell.js";
-import KosarView from "../Controller/KonyvController.js";
+import KosarView from "../View/kosarView.js";
 
 class KosarController{
     #elem;
@@ -9,9 +9,8 @@ class KosarController{
 
         $("#kosaram").on("click", ()=>{
             $('main').empty();
-            kosarmodell.getKosarTomb();
             console.log(kosarmodell.getKosarTomb())
-            new KosarView(kosarmodell.getKosarTomb(),this.kosarAdatok);
+            this.kosarAdatok(kosarmodell.getKosarTomb());
         });
 
         $(window).on("kosarba", (event)=>{
@@ -20,9 +19,9 @@ class KosarController{
         })
     }
 
-    kosarAdatok(elem){
+    kosarAdatok(tomb){
         const szuloElem = $("main");
-        new KosarView(elem, szuloElem)
+        new KosarView(tomb, szuloElem)
     }
 }
 

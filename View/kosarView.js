@@ -1,14 +1,21 @@
-
+import KonyvPublicView from "./konyvekPublicView.js";
 
 class KosarView{
-    constructor(elem, szuloElem){
-        this.#elem=elem;
+    #tomb=[]
+    constructor(tomb, szuloElem){
+        this.#tomb=tomb;
         szuloElem.append(`
         <div class="kosar">
-        <p>Valami</p>
+        <h1>Kosaram tartalma</h1>
         <div>
         `)
         this.divElem= szuloElem.children("div:last-child")
+
+        //javításra szorul
+        
+        tomb.forEach(elem => {
+            this.divElem.append(`<div>${elem.ar}</div>`)
+        });
     }
 
     
