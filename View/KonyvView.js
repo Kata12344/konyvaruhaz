@@ -8,7 +8,8 @@ class KonyvView {
                 <td>${elem.id}</td>
                 <td>${elem.cim}</td>
                 <td>${elem.szerzo}</td>
-                <td>${elem.ar}</td>
+                <td>${elem.kep}</td>
+                <td>${elem.ar} Ft</td>
                 <td><button id="mod${elem.id}">Módosít</button></td>
                 <td><button id="del${elem.id}">Töröl</button></td>
             </tr>`)

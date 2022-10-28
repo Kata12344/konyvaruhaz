@@ -6,7 +6,8 @@ class KonyvPublicView{
         <div class="konyv">
         <p class="cim">${elem.cim}</p>
         <p>${elem.szerzo}</p>
-        <p>${elem.ar}</p>
+        <img src="${elem.kep}" width="60%" height="50%">
+        <p>${elem.ar} Ft</p>
         <button id="kosarba${elem.id}">Kosárba</button>
         </div>`);
         this.elemElem = szuloElem.children("div:last-child");

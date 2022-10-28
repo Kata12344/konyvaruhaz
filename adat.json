@@ -2,15 +2,73 @@
     "konyv":[
     {
         "id":1,
-        "cim":"Pál utcai fiúk",
-        "szerzo":"Molnár Ferenc",
-        "ar":1115
+        "cim":"MAKE YOUR BED: LITTLE THINGS THAT CAN CHANGE YOUR LIFE...AND MAYBE THE WORLD",
+        "szerzo":"WILLIAM H. MCRAVEN",
+        "kep":"kepek/book1.jpg",
+        "ar":4500
     },
     {
         "id":2,
-        "cim":"A programozás rejtelmei",
-        "szerzo":"Gipsz Jakab",
-        "ar":2000
+        "cim":"WE ARE NEVER MEETING IN REAL LIFE",
+        "szerzo":"SAMANTHA IRBY",
+        "kep":"kepek/book2.jpg",
+        "ar":3150
+    },
+    {
+        "id":3,
+        "cim":"IN THE COMPANY OF WOMEN: INSPIRATION AND ADVICE FROM OVER 100 MAKERS, ARTISTS, AND ENTREPRENEURS",
+        "szerzo":"GRACE BONNEY",
+        "kep":"kepek/book3.jpg",
+        "ar":3900
+    },
+    {
+        "id":4,
+        "cim":"BECOMING",
+        "szerzo":"MICHELLE OBAMA",
+        "kep":"kepek/book4.jpg",
+        "ar":5650
+    },
+    {
+        "id":5,
+        "cim":"THE SOURCE OF SELF-REGARD",
+        "szerzo":"TONI MORRISON",
+        "kep":"kepek/book5.jpg",
+        "ar":3400
+    },
+    {
+        "id":6,
+        "cim":"YOU ARE A BADASS: HOW TO STOP DOUBTING YOUR GREATNESS AND START LIVING AN AWESOME LIFE",
+        "szerzo":"JEN SINCERO",
+        "kep":"kepek/book6.jpg",
+        "ar":3860
+    },
+    {
+        "id":7,
+        "cim":"WE SHOULD ALL BE FEMINISTS",
+        "szerzo":"CHIMAMANDA NGOZI ADICHIE",
+        "kep":"kepek/book7.jpg",
+        "ar":6500
+    },
+    {
+        "id":8,
+        "cim":"MY LIFE ON THE ROAD",
+        "szerzo":"GLORIA STEINEM",
+        "kep":"kepek/book8.jpg",
+        "ar":3240
+    },
+    {
+        "id":9,
+        "cim":"BOSSYPANTS",
+        "szerzo":"TINA FEY",
+        "kep":"kepek/book9.jpg",
+        "ar":4000
+    },
+    {
+        "id":10,
+        "cim":"WELL-READ BLACK GIRL",
+        "szerzo":"GLORY EDIM",
+        "kep":"kepek/book10.jpg",
+        "ar":2800
     }
     ]
 }

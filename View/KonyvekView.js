@@ -8,6 +8,7 @@ class KonyvekView {
         <th>ID</th>
         <th>Cím</th>
         <th>Szerző</th>
+        <th>Kép</th>
         <th>Ár</th>
         <th></th>
         <th></th>

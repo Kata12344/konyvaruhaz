@@ -11,11 +11,18 @@ class KosarView{
         `)
         this.divElem= szuloElem.children("div:last-child")
 
-        //javításra szorul
         
         tomb.forEach(elem => {
-            this.divElem.append(`<div>${elem.ar}</div>`)
+            this.divElem.append(`
+            <div class="konyv">
+            <p class="cim">${elem.cim}</p>
+            <p>${elem.szerzo}</p>
+            <img src="${elem.kep}" width="60%" height="50%">
+            <p>${elem.ar} Ft</p>
+            <button id="del${elem.id}">Töröl</button>
+            </div>`)
         });
+
     }
 
     
