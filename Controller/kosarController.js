@@ -10,7 +10,8 @@ class KosarController{
         $("#kosaram").on("click", ()=>{
             $('main').empty();
             console.log(kosarmodell.getKosarTomb())
-            this.kosarAdatok(kosarmodell.getKosarTomb());
+            this.kosarAdatok(kosarmodell.getKosarTomb(), kosarmodell.getVegosszeg());
+            
         });
 
         $(window).on("kosarba", (event)=>{
@@ -19,9 +20,9 @@ class KosarController{
         })
     }
 
-    kosarAdatok(tomb){
+    kosarAdatok(tomb, vegosszeg){
         const szuloElem = $("main");
-        new KosarView(tomb, szuloElem)
+        new KosarView(tomb, szuloElem, vegosszeg)
     }
 }
 

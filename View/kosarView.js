@@ -1,12 +1,14 @@
-import KonyvPublicView from "./konyvekPublicView.js";
+
 
 class KosarView{
     #tomb=[]
-    constructor(tomb, szuloElem){
+    constructor(tomb, szuloElem, vegosszeg){
         this.#tomb=tomb;
+        
         szuloElem.append(`
         <div class="kosar">
         <h1>Kosaram tartalma</h1>
+        
         <div>
         `)
         this.divElem= szuloElem.children("div:last-child")
@@ -22,6 +24,10 @@ class KosarView{
             <button id="del${elem.id}">Töröl</button>
             </div>`)
         });
+
+        this.elemElem=szuloElem.children("div:last-child")
+        this.elemElem.append(`<h3>Végösszeg: ${vegosszeg} Ft </h3>`)
+       
 
     }
 
